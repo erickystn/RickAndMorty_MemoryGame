@@ -110,6 +110,8 @@ window.addEventListener("beforeunload", function () {
   localStorage.removeItem("player");
 });
 
+setTimeout(() => document.querySelector("body").style.display ="block", 1000)
+
 // Criar rodape com seu nome.
 // assistir o resto da aula
 //criar record
