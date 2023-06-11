@@ -110,7 +110,7 @@ window.addEventListener("beforeunload", function () {
   localStorage.removeItem("player");
 });
 
-setTimeout(() => document.querySelector("body").style.display ="block", 5000);
+setTimeout(() => document.querySelector("body").style.display ="block", 2000);
 
 // Criar rodape com seu nome.
 // assistir o resto da aula
